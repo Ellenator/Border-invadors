@@ -1,0 +1,80 @@
+body {
+    overflow: hidden;
+    position: fixed;
+    background-color: antiquewhite;
+}
+
+.grid {
+	width: 600px;
+	height: 600px;
+    background-image: url(/img/border.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+	display: flex;
+	flex-wrap: wrap;
+    position: absolute;
+    transform: translateX(67%);
+}
+
+.grid div {
+	width: 40px;
+	height: 40px;
+}
+
+.grid .shooter {
+    width: 70px;
+    height: 70px;
+}
+
+.invader {
+	background-image: url(/img/mexicandannytrejo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.shooter {
+	background-image: url(/img/trump.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.laser {
+	background-image: url(/img/atombomb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.boom {
+	background-image: url(/img/explosion.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.results {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 70px;
+margin-bottom: 10px;
+margin-top: 2px;
+}
+
+.win {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 70px;
+margin-bottom: 10px;
+margin-top: 2px;
+color: rgb(220, 0, 0);
+text-shadow: 1.5px 1.5px white, 6px 6px rgb(1, 1, 193);
+}
+
+.lose {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    color: green;
+    text-shadow: 1.5px 1.5px white, 6px 6px rgb(220, 0, 0);
+    }
